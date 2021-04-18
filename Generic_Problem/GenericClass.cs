@@ -18,5 +18,15 @@ namespace Generic_Problem
                 max = z;
             return max;
         }
+        public static float maximum(float x, float y, float z)
+        {
+            float max = x;
+            if (y.CompareTo(max) > 0)
+                max = y;
+            if (z.CompareTo(max) > 0)
+                max = z;
+            return max;
+        }
     }
+   
 }
