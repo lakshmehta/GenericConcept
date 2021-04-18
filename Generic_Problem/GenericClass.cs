@@ -21,6 +21,10 @@ namespace Generic_Problem
             return max;
         }
 
+        public static void printMax(T element)
+        {
+            Console.WriteLine("Max Value: " + element);
+        }
 
 
     }
