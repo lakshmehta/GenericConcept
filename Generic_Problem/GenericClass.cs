@@ -8,9 +8,10 @@ namespace Generic_Problem
 {
     public class GenericClass<T> where T : IComparable
     {
-        public static T maximum(T x, T y, T z)
+      
+       public static int maximum(int x, int y, int z)
         {
-            T max = x;
+            int max = x;
             if (y.CompareTo(max) > 0)
                 max = y;
             if (z.CompareTo(max) > 0)
